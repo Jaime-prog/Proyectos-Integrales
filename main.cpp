@@ -77,7 +77,7 @@ int main() {
     int n = sizeof(arregloMonitores)/sizeof(arregloMonitores[0]);
     ordenar(arregloMonitores, n);
     cout << endl;
-
+// ciclo para ir agregando los monitores
     for (int i = 0; i < n; i++)
         cout << arregloMonitores[i] << endl;
     return 0;
